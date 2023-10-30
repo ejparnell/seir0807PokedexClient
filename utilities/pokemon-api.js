@@ -1,5 +1,5 @@
 import sendRequest from './send-request'
-const BASE_URL = 'http://localhost:4741/pokemon'
+const BASE_URL = 'https://seir0807pokedexapi.onrender.com/pokemon'
 
 export async function createPokemon(pokemonData) {
     return sendRequest(BASE_URL, 'POST', pokemonData)
